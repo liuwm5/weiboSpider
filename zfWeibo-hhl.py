@@ -24,7 +24,7 @@ session.mount('http://', HTTPAdapter(max_retries=3))
 
 # 爬一段时间要手动更换一次，因为登录的时候绕不过验证码，我只能手动更新，即微博登录-手动扒cookie，填到这里
 cookies = {
-    'cookie': 'SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhpJeORnG86NLG9y7hAohGM5NHD95QEe020ShqRSoz7Ws4DqcjLi--fi-2Xi-24i--Xi-z4iKyFi--fiKy2iK.Ni--ciKL8iKnpK5tt; WEIBOCN_FROM=1110006030; loginScene=102003; SUB=_2A25yuvlADeRhGeRN6lEV9ibKyTyIHXVuRIcIrDV6PUJbkdANLUzXkW1NU6F22oFv93dSAtW5vUjjXdzc-lQCMDZ3; _T_WM=89320097774; XSRF-TOKEN=6dff1f; MLOGIN=1; M_WEIBOCN_PARAMS=lfid%3D102803%26luicode%3D20000174%26uicode%3D20000174'}
+    'cookie': ''}
 
 
 # 创建文件，用这个包如果数据重复的话提示数据重复，不会写入
